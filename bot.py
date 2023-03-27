@@ -9,7 +9,7 @@ async def send_message(message, user_message, is_private):
     except Exception as e:
         print(e)
 def run_discord_bot():
-    TOKEN = "MTA4NjA3MzIwMjY0MTQ2OTQ4MA.GgYLCQ.qQ1W4-H75VO8QS4-1ChQIuiWEvyYu9vR2OVzRA"
+    TOKEN = ""
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
